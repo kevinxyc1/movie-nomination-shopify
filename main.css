@@ -1,0 +1,73 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'montserrat', sans-serif;
+    background-color: #8EC5FC;
+
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);  */
+    background:#fff;
+  
+
+}
+
+.app-wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 180vh;
+    font-family: 'bangers', cursive;
+  font-size: 25px;
+    background-image: url('comicbg.jpeg');
+    background-size:cover;
+}
+
+.top-buffer-100 {
+    margin-top: 100px;
+}
+
+.top-buffer-30 {
+    margin-top: 30px;
+}
+
+.box {
+    margin:25px;
+    width:250px;
+    height:1000px;
+    background:#fff;
+    border: solid black;
+    border-color: black;
+    float:left; 
+}
+
+.banner {
+    display: none;
+    color: greenyellow;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 25px;
+    border: 2px solid greenyellow;
+}
+
+.oddboxinner{
+    margin:15px;
+    transform: rotate(-2deg);
+}
+
+.searchcontainer {
+    justify-content: center;
+    align-items: center;
+}
+.searchcontainer button {
+    height: 40px;
+    margin: 3px;
+}
+
+.nomcontainer button {
+    height: 40px;
+    margin: 3px;
+}

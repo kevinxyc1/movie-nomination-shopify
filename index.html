@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Bangers">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+</head>
+
+<body>
+    <div class="app-wrap">
+        
+        <main>
+            <h1 class="row justify-content-center top-buffer-100">
+                The Shoppies
+            </h1>
+            <form class="row justify-content-center top-buffer-30" id="movieForm">
+                <div class="form-group col-5">
+                  <input class="form-control" placeholder="Search for a movie..." type="text" id="movie">
+                </div>
+                <div class="col-1">
+                    <button type="submit" class="btn btn-primary" id="search-btn">Search</button> 
+                </div>
+                
+            </form>
+            <div class="row twocontainer">
+                <div class="searchcontainer justify-content-center container col-6 box" >
+                    <div class="oddboxinner"> here is the result:</div>
+                  
+                </div>
+                <div class="nomcontainer justify-content-center container col-5 box">
+                    <div class="oddboxinner"> Nominations</div>
+                    <div class="row justify-content-center"></div>
+                    <div class='banner hidden'>You have reached a limit of 5 nominations!</div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="script.js">
+        
+    </script>
+    
+</body>
+
+</html>
