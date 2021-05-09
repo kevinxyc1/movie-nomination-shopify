@@ -1,6 +1,6 @@
 const api = {
     key: '201f5e4',
-    base: "http://www.omdbapi.com/?apikey="
+    base: "https://www.omdbapi.com/?apikey="
 }
 
 var nom_count = 0;
