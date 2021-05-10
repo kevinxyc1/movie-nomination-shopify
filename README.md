@@ -7,6 +7,6 @@ HTML, CSS, JavaScript, Bootstrap, jQuery
 OMDB API
 
 ### Design
-Designed the frontend with HTML, CSS and Bootstrap and there is a search bar with two panels. /n
-Hooked up to OMDB API and retrieved movie title, imdb id and year from the API. /n
+Designed the frontend with HTML, CSS and Bootstrap and there is a search bar with two panels. <br />
+Hooked up to OMDB API and retrieved movie title, imdb id and year from the API. <br />
 Programmed all of the backend logic in jQuery (script.js)
